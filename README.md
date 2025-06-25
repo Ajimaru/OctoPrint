@@ -92,6 +92,12 @@ OctoPrint currently supports Python 3.7, 3.8, 3.9, 3.10, 3.11, 3.12 and 3.13.
 
 Support for Python 3.7 and 3.8 will be dropped with OctoPrint 1.12.0.
 
+## How OctoPrint Works
+
+OctoPrint runs on any platform with Python support, communicates bidirectionally over USB with your 3D printers Firmware, and serves its user interface over HTTP/WebSockets to any modern browser.
+
+![Overview of OctoPrint Architecture](/docs/images/octoprint_architecture.png)
+
 ## Usage
 
 Running the pip install via
